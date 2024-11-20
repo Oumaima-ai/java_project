@@ -5,7 +5,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
-
+// main
 public class Main {
 
     JFrame displayZoneFrame;
