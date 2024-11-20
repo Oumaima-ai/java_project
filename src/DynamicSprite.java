@@ -16,6 +16,13 @@ public class DynamicSprite extends SolidSprite {
     public void setDirection(Direction direction) {
         this.direction = direction;
     }
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
     @Override
     public void draw(Graphics g) {
         int spriteSheetNumberOfColumn = 10;
